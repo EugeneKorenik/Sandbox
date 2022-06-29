@@ -1,0 +1,4 @@
+.idea
+*.iml
+/file-management-service/target/
+/messaging-service/target/

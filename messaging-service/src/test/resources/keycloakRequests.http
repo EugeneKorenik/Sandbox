@@ -1,0 +1,15 @@
+POST http://localhost:8089/auth/realms/tg-messaging-service/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&client_id=tg-messaging-service&username=user1&password=password
+
+###
+
+POST http://localhost:8089/auth/realms/tg-messaging-service/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+scope=openid&grant_type=password&client_id=tg-messaging-service&username=user1&password=password
+
+###
+
+GET http://localhost:8089/auth/realms/tg-messaging-service/protocol/openid-connect/certs
